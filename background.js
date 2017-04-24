@@ -20,3 +20,5 @@ chrome.browserAction.onClicked.addListener(function(tab) {
    localStorage.status = (localStorage.status==="on") ? "off" : "on"
    setIcon(localStorage.status, tab.id)
 });
+
+//insert comment for your code
